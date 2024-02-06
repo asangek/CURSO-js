@@ -4,17 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
+    <h1 id="titulo"> </h1>
 
+        <div class="container">
+            <h1>Carrito de Compras</h1>
+            <div class="products">
+                <div class="product">
+                    <span>Procesador amd- $100</span>
+                    <button class="add-to-cart" onclick="addToCart('Procesador amd', 100)">Agregar al Carrito</button>
+                </div>
+                <div class="product">
+                    <span>Procesador intel - $120</span>
+                    <button class="add-to-cart" onclick="addToCart('Procesador intel', 120)">Agregar al Carrito</button>
+                </div>
+            </div>
+            <h2>Carrito</h2>
+            <div id="cart" class="cart">
+                <!-- Elementos del carrito se añadirán aquí -->
+            </div>
+        </div>
+     
 
+        <div id="container">
+        <h2> (evento del click)</h2>
+        <p>preciona el boton para informarnos que te gustaria ver en el futuro</p>
 
-
-
-
-
-
+        </div>
+<button id="btn"> Agregar un componente aqui</button>
 
 
 
