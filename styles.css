@@ -13,3 +13,24 @@
     padding: 10px;
    
 }
+
+
+
+
+
+
+
+
+
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contenedor img {
+    width: 23%;
+    margin-bottom: 15px;
+}
+
